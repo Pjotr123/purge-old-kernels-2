@@ -30,7 +30,7 @@ fi
 # NOTE: This script will ALWAYS keep the currently running kernel and its headers, which should make it safe to use.
 # NOTE: Default is 2, which means that it keeps one spare kernel besides the currently running kernel.
 # NOTE: Before you can use it, you need to make this shell script executable.
-# Usage when in folder Downloads:
+# Usage when in folder Downloads, consists out of three steps:
 # 1. Move the script from the folder Downloads to the folder /opt:
 # sudo mv -v ~/Downloads/purge-old-kernels-2.sh /opt
 # 2. Set the permissions right (also making it executable):
