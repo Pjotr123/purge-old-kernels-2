@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#    purge-old-kernels - remove old kernels and their headers
+#    purge-old-kernels-2 - remove old kernels and their headers
 #    Copyright (C) 2012 Dustin Kirkland <kirkland@ubuntu.com>
 #
 #    Authors: Dustin Kirkland <kirkland@ubuntu.com>
@@ -28,7 +28,8 @@ fi
 
 # NOTE: This script will ALWAYS keep the currently running kernel and its headers.
 # NOTE: Default is 2, which means that it keeps one spare kernel besides the currently running kernel.
-# NOTE: You can change the number of kept kernels with --keep N. For example: sudo purge-old-kernels --keep 3
+# NOTE: Before you can use it, you need to make this shell script executable.
+# NOTE: You can change the number of kept kernels with --keep N. For example: sudo purge-old-kernels-2.sh --keep 3
 KEEP=2
 # NOTE: Any unrecognized option will be passed straight through to apt
 APT_OPTS=
