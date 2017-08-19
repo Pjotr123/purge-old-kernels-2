@@ -7,7 +7,7 @@ But 'apt autoremove' (apt-get autoremove) does much more than just removing old 
 <br>
 This script will ALWAYS keep the currently running kernel and its headers.<br>
 Default is 2, which means that it keeps one spare kernel besides the currently running kernel.<br>
-Before you can use it, you need to make this shell script executable.<br>
+<b>Before you can use it, you need to make this shell script executable.</b><br>
 <br>
 Usage:<br>
 sudo sh purge-old-kernels-2.sh<br>
