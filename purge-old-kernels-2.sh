@@ -22,8 +22,8 @@
 
 # Ensure we're running as root
 if [ "$(id -u)" != 0 ]; then
-   echo "ERROR: This script must run as root.  Hint..." 1>&2
-   echo "  sudo $0 $@" 1>&2
+   echo "ERROR: This script must run as root.  Hint:" 1>&2
+   echo "  sudo sh $0 $@" 1>&2
    exit 1
 fi
 
