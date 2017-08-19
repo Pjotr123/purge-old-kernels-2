@@ -1,7 +1,8 @@
 #!/bin/sh
 #
 #    purge-old-kernels-2 - remove old kernels and their headers
-#    Copyright (C) 2012 Dustin Kirkland <kirkland@ubuntu.com>
+#    Copyright (C) 2012: Dustin Kirkland <kirkland@ubuntu.com>
+#                  2017: Pjotr <pjotrvertaalt@gmail.com>
 #
 #    Authors: Dustin Kirkland <kirkland@ubuntu.com>
 #             Kees Cook <kees@ubuntu.com>
