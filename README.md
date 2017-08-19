@@ -14,7 +14,7 @@ Usage:<br>
 1. Move the script from the folder Downloads to the folder /opt:<br>
 sudo mv -v ~/Downloads/purge-old-kernels-2.sh /opt<br>
 2. Set the permissions right (also making it executable):<br>
-sudo chmod 755 /opt/purge-old-kernels-2.sh<br>
+sudo chmod -v 755 /opt/purge-old-kernels-2.sh<br>
 3. Launch it:<br>
 sudo sh /opt/purge-old-kernels-2.sh<br>
 <br>
