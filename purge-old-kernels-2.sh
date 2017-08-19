@@ -30,7 +30,7 @@ fi
 # NOTE: This script will ALWAYS keep the currently running kernel and its headers.
 # NOTE: Default is 2, which means that it keeps one spare kernel besides the currently running kernel.
 # NOTE: Before you can use it, you need to make this shell script executable.
-# NOTE: Usage: sudo sh purge-old-kernels-2.sh
+# NOTE: Usage when in folder Downloads: sudo sh ~/Downloads/purge-old-kernels-2.sh
 # NOTE: You can change the number of kept kernels with --keep N. For example: sudo sh purge-old-kernels-2.sh --keep 3
 KEEP=2
 # NOTE: Any unrecognized option will be passed straight through to apt
