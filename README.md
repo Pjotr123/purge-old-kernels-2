@@ -12,4 +12,5 @@ Before you can use it, you need to make this shell script executable.<br>
 Usage:<br>
 sudo sh purge-old-kernels-2.sh<br>
 <br>
-You can change the number of kept kernels with --keep N. For example: 'sudo sh purge-old-kernels-2.sh --keep 3'<br>
+You can change the number of kept kernels with --keep N.<br>
+For example: sudo sh purge-old-kernels-2.sh --keep 3<br>
