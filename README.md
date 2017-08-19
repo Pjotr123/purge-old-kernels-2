@@ -10,4 +10,5 @@ Default is 2, which means that it keeps one spare kernel besides the currently r
 Before you can use it, you need to make this shell script executable.<br>
 Usage:<br>
 sudo sh purge-old-kernels-2.sh<br>
-You can change the number of kept kernels with --keep N. For example: sudo sh purge-old-kernels-2.sh --keep 3<br>
+<br>
+You can change the number of kept kernels with --keep N. For example: 'sudo sh purge-old-kernels-2.sh --keep 3'<br>
