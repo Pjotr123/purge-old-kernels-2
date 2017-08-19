@@ -18,4 +18,4 @@ sudo chmod -v 755 /opt/purge-old-kernels-2.sh<br>
 3. Launch it:<br>
 sudo sh /opt/purge-old-kernels-2.sh<br>
 <br>
-You can change the number of kept kernels with --keep N. For example: sudo sh purge-old-kernels-2.sh --keep 3<br>
+You can change the number of kept kernels with '--keep N'. For example: sudo sh purge-old-kernels-2.sh --keep 3<br>
