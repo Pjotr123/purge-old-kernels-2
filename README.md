@@ -1,7 +1,7 @@
 # purge-old-kernels-2
 Fork of Ubuntu's purge-old-kernels, with a few minor changes in the notes.<br>
 Shellscript, meant for Ubuntu and its derivatives like Linux Mint.<br>
-<b>
+<br>
 Main reason for its existence: purge-old-kernels has been deprecated because apt autoremove should do this job as well.<br>
 But apt autoremove (apt-get autoremove) does much more than just removing old kernels, which might be undesirable.<br>
 <br>
