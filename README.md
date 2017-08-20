@@ -11,11 +11,12 @@ The default is 2, which means that it keeps one spare kernel besides the current
 <b>Before you can use it, you need to make this shell script executable. See the usage instruction below.</b><br>
 <br>
 Usage:<br>
-1. Move the script from the folder Downloads to the folder /opt:<br>
+1. Launch a terminal window.<br>
+2. Move the script from the folder Downloads to the folder /opt, with the following command line:<br>
 sudo mv -v ~/Downloads/purge-old-kernels-2.sh /opt<br>
-2. Set the permissions right (also making it executable):<br>
+3. Set the permissions right (also making it executable), with this command:<br>
 sudo chmod -v 755 /opt/purge-old-kernels-2.sh<br>
-3. Launch it:<br>
+4. Launch it with the command below:<br>
 sudo sh /opt/purge-old-kernels-2.sh<br>
 <br>
 You can change the number of kept kernels with '--keep N'. For example: sudo sh purge-old-kernels-2.sh --keep 3<br>
