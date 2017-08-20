@@ -8,6 +8,7 @@ Finally, this script is entirely independent from the byobu package, which is an
 <br>
 This script will <b><i>always</b></i> keep the currently running kernel and its headers, which should make it safe to use.<br>
 The default is 2, which means that it keeps one spare kernel besides the currently running kernel.<br>
+<br>
 <b>Before you can use it, you need to make this shell script executable. See the usage instruction below.</b><br>
 <br>
 Usage:<br>
