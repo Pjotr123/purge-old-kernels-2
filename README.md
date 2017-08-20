@@ -12,9 +12,9 @@ The default is 2, which means that it keeps one spare kernel besides the current
 <br>
 Usage:<br>
 1. Launch a terminal window.<br>
-2. Move the script from the folder Downloads to the folder /opt, with the following command line (use copy/paste to transfer it):<br>
+2. Move the script from the folder Downloads to the folder /opt, with this command line (use copy/paste to transfer it):<br>
 sudo mv -v ~/Downloads/purge-old-kernels-2.sh /opt<br>
-3. Set the permissions right (also making it executable), with this command (use copy/paste to transfer it):<br>
+3. Set the permissions right (also making it executable), with the following command (use copy/paste to transfer it):<br>
 sudo chmod -v 755 /opt/purge-old-kernels-2.sh<br>
 4. Launch it with the command below (use copy/paste to transfer it):<br>
 sudo sh /opt/purge-old-kernels-2.sh<br>
