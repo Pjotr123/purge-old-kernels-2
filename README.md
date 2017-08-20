@@ -1,5 +1,5 @@
 # purge-old-kernels-2
-Fork of Ubuntu's 'purge-old-kernels', with a few minor changes in the notes.<br>
+Fork of Ubuntu's 'purge-old-kernels' (part of the byobu package), with a few minor changes in the notes.<br>
 It's a shell script, meant for Ubuntu and its derivatives like Linux Mint.<br>
 <br>
 Main reason for its existence: 'purge-old-kernels' has been deprecated since Ubuntu 16.04.<br>
