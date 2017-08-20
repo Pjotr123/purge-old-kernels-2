@@ -5,6 +5,7 @@ It's a shell script, meant for Ubuntu and its derivatives like Linux Mint.<br>
 Main reason for its existence: 'purge-old-kernels' has been deprecated since Ubuntu 16.04.<br>
 But the intended replacement 'apt autoremove' (apt-get autoremove) does much more than just deleting old kernels.<br>
 This might be undesirable, which is why some may prefer this precision instrument for removing only old kernels.<br>
+Finally, this script is entirely independent from the byobu package, which is an additional advantage.<br>
 <br>
 This script will <b><i>always</b></i> keep the currently running kernel and its headers, which should make it safe to use.<br>
 The default is 2, which means that it keeps one spare kernel besides the currently running kernel.<br>
